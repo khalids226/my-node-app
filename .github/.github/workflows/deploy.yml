@@ -34,7 +34,8 @@ jobs:
             sudo yum install -y nodejs
           fi
 
-          # Install npm dependencies
+          # Install npm dependencies 
+          # pm2 install as well
           npm install
 
           # Install PM2 if not already
